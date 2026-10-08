@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_safety_title">Shizuku連携完了</string>
+    <string name="ui_safety_intro">次に、利用前の注意事項をご確認ください。確認後、無音補助の準備に進みます。</string>
+    <string name="ui_safety_next_steps">確認後は画面の案内に沿って、通知と着信モードを準備してください。この操作だけで音設定は変更しません。</string>
+    <string name="ui_action_accept_safety">理解して次へ</string>
+    <string name="ui_action_later">あとで</string>
+    <string name="ui_compatibility_title">対応機種と復元の案内</string>
+    <string name="ui_notifications_required">有効化には状態通知が必要です。通知の許可と「無音補助 状態通知」チャンネルを確認してください。</string>
+    <string name="ui_action_allow_notifications">通知を許可する</string>
+    <string name="ui_action_open_notification_settings">通知設定を開く</string>
+    <string name="ui_unverified_title">この機種／OSビルドは未検証です</string>
+    <string name="ui_unverified_body">Play版の同じ音設定方式での確認実績は、Find X9日本版とReno13 Aの指定ビルドに限られます。公開ソースから作成した本アプリの実際の音は未確認です。この端末での効果や他の音への影響は、利用者自身で確認してください。設定値の取得成功は動作保証ではありません。</string>
+    <string name="ui_unverified_audio_caution">緊急音やアラームを必要とする場面では試さず、写真・動画の音と復元後の音を実際に確認してください。</string>
+    <string name="ui_verified_method_notice">Play版の同じ音設定方式での確認実績：Find X9日本版・Reno13 Aの指定ビルド。本アプリの実際の音は未確認です。利用者自身で確認してください。</string>
+    <string name="ui_check_actual_audio">設定値の確認だけでは実際の音は判定できません。写真・動画の音と手動復元後の音を実際に確認してください。</string>
+    <string name="ui_silent_mode_reminder">有効化する前に端末をサイレント／バイブモードにし、状態を再確認してください。</string>
+    <string name="ui_action_privacy_policy">プライバシーポリシー</string>
+    <string name="ui_action_font_license">フォントのライセンス</string>
+    <string name="ui_manual_restore_reminder">使用後は手動で戻してください。自動復元は行いません。</string>
+    <string name="ui_compatibility_body">Android 15以降で利用できます。機種名・OSビルドによる利用制限はありません。\n\nPlay版の同じ音設定方式では、Find X9日本版とReno13 Aの指定ビルドで無音化・復元を確認しています。公開ソースから作成した本アプリの実際の音は未確認です。利用者自身で無音補助中と復元後の音を確認してください。\n%1$s\n\nその他の機種・OSビルドは未検証です。端末側API・現在値・変更前の値の保存を確認できる場合に利用できます。設定値が一致しても、実際の音や安全性を保証するものではありません。\n\nOTA後は再確認が必要です。未検証の端末・OSビルドでは変更前の記録がないと復元しません。上記のPlay版で確認したモデル・OSビルド・ビルド識別情報が一致する場合は、記録がなくても確認済みの標準値へ戻せます。APIが使えない場合は変更しません。端末を再起動した場合も写真・動画の実際の音を確認してください。将来のOS対応は保証していません。</string>
+    <string name="ui_device_details">端末: %1$s / ビルド: %2$s</string>
+    <string name="ui_unmanaged_unforced_guidance">元々強制音が設定されていない場合、別のアプリによる変更、本アプリの変更後にデータ消去などで記録を失った場合が考えられます。元の値を推測して変更せず、無音補助も開始しません。\n\n別のアプリで変更した場合は、必要に応じて元のアプリで戻し、実際の音を確認してください。本アプリで変更した後に記録を失った場合は、端末を再起動して設定と実際の音を確認してください。再起動で元に戻るとは限りません。</string>
+    <string name="ui_preparation_checking">準備状況を確認しています。</string>
+    <string name="ui_preparation_connect_shizuku">まずShizukuを起動してください。戻ると接続状態を確認します。</string>
+    <string name="ui_preparation_allow_shizuku">このアプリへのShizukuアクセスを許可してください。</string>
+    <string name="ui_preparation_read_state">音設定を取得できていません。「状態を再確認」を押してください。</string>
+    <string name="ui_preparation_restore">無音補助中です。使用後は「純正状態に戻す」を押してください。</string>
+    <string name="ui_preparation_unmanaged">変更前の記録がないため、設定を変更しません。本アプリで変更した後に記録を失った場合を含め、画面上部の状態欄の案内に沿って確認してください。</string>
+    <string name="ui_preparation_unexpected">現在の音設定には対応していないため開始できません。</string>
+    <string name="ui_preparation_consent">次に、利用前の注意事項を確認してください。</string>
+    <string name="ui_preparation_notifications">次に、状態通知を許可してください。無音補助中の状態と復元操作に必要です。</string>
+    <string name="ui_preparation_silent_mode">次に、端末をサイレント／バイブに切り替えてください。現在は通常モードのため開始できません。音の設定から変更し、アプリに戻ると再確認します。</string>
+    <string name="ui_preparation_ready">準備ができました。下のボタンで無音補助を開始できます。</string>
+    <string name="ui_action_review_safety">注意事項を確認する</string>
+    <string name="ui_action_allow_status_notifications">状態通知を許可する</string>
+    <string name="ui_action_open_sound_settings">音の設定を開く</string>
+    <string name="ui_action_prepare_shizuku">Shizukuを開いて準備する</string>
+    <string name="ui_action_allow_shizuku_access">Shizukuアクセスを許可する</string>
+</resources>

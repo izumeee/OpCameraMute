@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="assist_already_changed">すでに設定が変更されています。使用後は元に戻してください。</string>
+    <string name="assist_unexpected_setting">現在の音設定が想定外のため変更しません。</string>
+    <string name="assist_consent_required">アプリで変更内容と手動復元の注意を確認してください。</string>
+    <string name="assist_notification_permission_required">有効化には状態通知の許可が必要です。通知設定を確認してください。</string>
+    <string name="assist_silent_mode_required">端末をサイレント／バイブモードにしてから有効化してください。</string>
+    <string name="assist_notification_failed">状態通知を表示できませんでした。</string>
+    <string name="assist_active_notification_failed">有効化後の状態通知を表示できませんでした。</string>
+    <string name="assist_operation_unconfirmed">操作の完了を確認できません。状態を再確認し、必要なら元へ戻してください。</string>
+    <string name="assist_safety_state_unavailable">補助情報を確認できません。有効化は停止しています。必要なら元へ戻してください。</string>
+    <string name="assist_shizuku_unavailable">Shizukuに接続できません。状態不明です。再接続後に確認してください。</string>
+    <string name="assist_shizuku_permission_denied">Shizukuの権限が許可されていません。</string>
+    <string name="assist_recovery_state_unavailable">復元用の記録を確認・保存できません。音設定が変更済みの可能性があるため、状態を再確認してください。必要ならShizukuへ再接続して復元し、実際の音も確認してください。</string>
+    <string name="assist_unsupported_setting">現在の音設定に対応していないため変更しません。</string>
+    <string name="assist_verification_failed">変更後の音設定を確認できません。状態を再確認してください。</string>
+    <string name="assist_audio_operation_failed">音設定の取得・変更に失敗しました。Shizukuを確認し、状態を再取得してください。</string>
+    <string name="assist_unmanaged_setting">現在の設定では強制可聴音が無効で、本アプリの変更前の記録がありません。元々この設定の端末では操作は不要です。他のアプリで変更した場合はそのアプリで戻し、実際の音を確認してください。元の値を推測して変更することはありません。本アプリで変更した後に記録を失った場合は、端末を再起動して設定と実際の音を確認してください。再起動で元に戻るとは限りません。</string>
+    <string name="assist_rollback_completed">%1$s 元の音設定へ戻しました。</string>
+    <string name="assist_rollback_unconfirmed">%1$s 復元も確認できません。Shizukuを確認し手動で元へ戻すか、端末を再起動してください。</string>
+</resources>

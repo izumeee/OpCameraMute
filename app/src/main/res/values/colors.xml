@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ランチャーアイコンでのみ使用するアクセントカラー。UIテーマには使わない。 -->
+    <color name="app_accent_green">#006B33</color>
+</resources>

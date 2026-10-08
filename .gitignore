@@ -1,0 +1,35 @@
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+.idea/
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 署名・サービス認証情報はリポジトリに保存しない。
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+key.properties
+keystore.properties
+client_secret*.json
+service-account*.json
+
+# ビルド・署名した成果物はリポジトリに保存しない。
+*.apk
+*.aab
+*.apks
+/app/release/
+
+*.pem
+*.key
+*.crt
+*.cer

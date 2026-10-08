@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">オッポカメラ無音化（非公式）</string>
+    <string name="tile_label">オッポカメラ無音化（非公式）</string>
+    <string name="affiliation_disclaimer">個人開発の非公式アプリです。OPPO・Shizukuの開発元とは提携していません。OPPOおよびAndroidは、各権利者の商標または登録商標です。</string>
+
+    <!-- 状態表示 -->
+    <string name="state_genuine">通常の音設定</string>
+    <string name="state_mute_assist">無音補助中</string>
+    <string name="state_unknown">状態不明</string>
+    <string name="state_shizuku_disconnected">Shizuku未接続</string>
+    <string name="state_unmanaged_unforced">変更前の音設定の記録がありません</string>
+
+    <!-- 上記に加え、原因を明確にするための補助状態 -->
+    <string name="state_shizuku_permission_denied">Shizukuの権限が未許可です</string>
+    <string name="state_shizuku_unsupported_backend">Shizukuの起動方式が未対応です</string>
+    <string name="state_unexpected_value">この音設定には対応していません</string>
+
+    <!-- 操作 -->
+    <string name="action_enable">無音補助をオン</string>
+    <string name="action_restore">純正状態に戻す</string>
+    <string name="action_refresh">状態を再確認</string>
+    <string name="action_request_shizuku_permission">Shizukuの権限を許可</string>
+    <string name="action_open_shizuku">Shizukuアプリを開く</string>
+    <string name="action_shizuku_help">Shizukuの準備方法を見る</string>
+    <string name="action_close">閉じる</string>
+
+    <!-- Shizuku導入ガイド (画面上部の常設ボタンから開くダイアログ) -->
+    <string name="shizuku_unsupported_backend_guidance">本アプリはroot方式のShizukuには対応していません。Shizukuを停止し、ワイヤレスデバッグまたはADBで起動し直してください。</string>
+    <string name="shizuku_help_title">Shizukuの準備方法</string>
+    <string name="shizuku_help_install_title">① Shizukuをインストールする</string>
+    <string name="shizuku_help_install_body">Google Playまたは公式GitHubから「Shizuku」をインストールしてください。続いて、Shizukuを起動する前に端末側の権限制限を確認します。</string>
+    <string name="shizuku_help_start_title">③ ワイヤレスデバッグでShizukuを起動する</string>
+    <string name="shizuku_help_start_body">Wi-Fiに接続し、設定 → 開発者向けオプション → 「ワイヤレスデバッグ」をONにします。Shizukuアプリの案内に従ってペアリングし、「開始」を押してください。端末の再起動後はShizukuを再び開始します。本アプリはADBで起動したShizukuを使用し、root方式には対応していません。</string>
+    <string name="shizuku_help_oppo_setup_title">② OPPOの権限制限を解除する</string>
+    <string name="shizuku_help_oppo_setup_body">設定 → 開発者向けオプションで「認可の監視を無効化」をONにしてください。Reno13 Aではこの名前で表示され、英語表記は「Disable permission monitoring」です。\n\n機種・ColorOSによっては「Disable system optimization」と表示されます。日本語で見つからない場合は、一時的に端末の言語を英語にして確認してください。設定後は元の言語に戻せます。\n\nこれは本アプリへの権限許可とは別の、端末側の開発者設定です。Shizukuの権限が制限されるのを防ぐため、起動前に確認します。すでにShizukuを起動している場合は、設定後にShizukuを停止して開始し直してください。</string>
+    <string name="shizuku_help_authorize_title">④ オッポカメラ無音化（非公式）に権限を許可する</string>
+    <string name="shizuku_help_authorize_body">この説明を閉じて「Shizukuの権限を許可」を押し、Shizukuの確認画面で許可してください。その後、「状態を再確認」で音の設定を読み取れることを確認します。「adbの権限が制限されています」と表示されたら、②の設定とShizukuの再起動を確認してください。</string>
+
+    <!-- 通知 -->
+    <string name="notification_settings_unavailable">通知設定を開けませんでした。端末の設定からこのアプリの通知を許可してください。</string>
+    <string name="notification_failure_channel_name">音設定の復元失敗</string>
+    <string name="notification_active_title">無音補助オン（手動復元）</string>
+    <string name="notification_channel_name">無音補助 状態通知</string>
+    <string name="notification_channel_description">無音補助が有効な間、状態と復元ボタンを表示します。</string>
+    <string name="notification_text_body">端末全体の強制可聴音の設定を変更しました。現在値はアプリで再確認し、使用後は復元してください。</string>
+    <string name="notification_action_restore">純正状態に戻す</string>
+    <string name="notification_restore_failed_title">音設定の復元を確認できません</string>
+    <string name="notification_restore_failed_body">Shizukuの切断・権限・起動方式などが原因の可能性があります。アプリを開き、案内に沿って「純正状態に戻す」を実行してください。</string>
+
+    <!-- 警告文 -->
+    <string name="warning_respect_privacy">撮影時は周囲のプライバシーと意思を尊重し、法令・条例・施設のルールを守ってください。盗撮など、他人の権利を侵害する目的では使用しないでください。</string>
+    <string name="warning_scope">この機能は端末の音設定を変更します。カメラ音以外の音にも影響する可能性があります。</string>
+    <string name="warning_silent_recommended">無音補助の利用にはサイレント／バイブモードが必要です。このモード自体により着信・通知音を聞き逃すことがあります。通常モードでの無音化は保証できません。</string>
+    <string name="warning_active_banner">強制可聴音の設定が変更されています。すべてのカメラ音や他の音が無音になることを保証するものではありません。</string>
+    <string name="warning_force_stop">自動では元に戻りません。アプリを閉じる・強制停止する・削除するだけでは、音設定が残ることがあります。強制停止やアプリの更新で状態通知が消えても、音設定は変更されたままのことがあるため、アプリを開いて状態を確認してください。使用後や削除・データ消去の前は必ず「純正状態に戻す」を実行し、実際の音も確認してください。</string>
+    <string name="warning_manual_restore">Shizukuの切断・権限取り消し時は復元できません。再接続して復元するか、端末を再起動して実際の音を確認してください。通知は最終確認時点の表示で、現在値の常時監視ではありません。</string>
+    <string name="warning_untested_scope">Play版の同じ音設定方式では、Find X9日本版の指定ビルドで短い試験音による擬似試験を実施しています。公開ソースから作成した本アプリの実際の音は未確認です。他機種・他ビルドと、本物の緊急地震速報・通話・各アプリ・外部音声機器の動作は未検証です。アラームや緊急音が必ず鳴るとは保証できません。</string>
+    <string name="sound_settings_unavailable">端末の設定からサイレント／バイブに切り替えてください。</string>
+</resources>

@@ -1,0 +1,10 @@
+# Gradleが生成する標準設定に合わせ、起動スクリプトの改行コードを固定する。
+/gradlew        text eol=lf
+*.bat           text eol=crlf
+
+# アプリが改行で段落を分ける同梱文書は、チェックアウト環境に関わらずLFで扱う。
+*.txt           text eol=lf
+
+# バイナリーは改行コードを変換しない。
+*.jar           binary
+*.ttf           binary
